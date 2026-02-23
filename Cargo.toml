@@ -1,3 +1,15 @@
+[package]
+name = "frost-threshold-sig"
+version = "0.1.0"
+edition = "2021"
+description = "FROST Threshold Signature Scheme for Bitcoin Taproot"
+readme = "README.md"
+keywords = ["bitcoin", "taproot", "frost", "threshold", "signature"]
+categories = ["cryptography", "blockchain"]
+repository = "https://github.com/mensah-frost-threshold-sig/frost-threshold-sig"
+license = "MIT OR Apache-2.0"
+authors = ["Your Name <you@example.com>"]
+
 [dependencies]
 secp256k1 = { version = "0.27", features = ["schnorr", "rand-std"] }
 rand = "0.8"
