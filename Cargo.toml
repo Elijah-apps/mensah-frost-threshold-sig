@@ -11,14 +11,14 @@ license = "MIT OR Apache-2.0"
 authors = ["Your Name <you@example.com>"]
 
 [dependencies]
-secp256k1 = { version = "0.27", features = ["schnorr", "rand-std"] }
+secp256k1 = { version = "0.27", features = ["rand-std"] }
 rand = "0.8"
 sha2 = "0.10"
 zeroize = { version = "1.6", features = ["zeroize_derive"] }
 thiserror = "1.0"
 hex = "0.4"
 serde = { version = "1.0", features = ["derive"], optional = true }
-vsss-rs = "0.2"  # For verifiable secret sharing
+vsss-rs = "5.2"  # For verifiable secret sharing
 
 [dev-dependencies]
 criterion = "0.5"
